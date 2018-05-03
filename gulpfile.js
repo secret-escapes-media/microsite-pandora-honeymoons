@@ -39,7 +39,7 @@ gulp.task('serve', ['build-jekyll'], function() {
     server: {
       baseDir: '_site/',
       routes: {
-        '/_templates/collection-single': '_site/'
+        '/pandora': '_site/'
       }
     }
   });

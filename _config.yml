@@ -1,7 +1,7 @@
 # Site settings
-title: Collection Single
+title: Pandora Honeymoon Collection
 client:
-  name: Client Name
+  name: Pandora
   link: "#client-name"
 core-se-link: https://www.secretescapes.com/current-sales
 description: >
@@ -9,10 +9,10 @@ description: >
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
-baseurl: "/_templates/collection-single" # the subpath of your site, e.g. /blog/
-img:     "/_templates/collection-single/_assets/img"
-css:     "/_templates/collection-single/_assets/css"
-js:      "/_templates/collection-single/_assets/js"
+baseurl: "/pandora" # the subpath of your site, e.g. /blog/
+img:     "/pandora/_assets/img"
+css:     "/pandora/_assets/css"
+js:      "/pandora/_assets/js"
 
 
 # Build settings
