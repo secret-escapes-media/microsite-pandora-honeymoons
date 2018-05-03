@@ -1,0 +1,69 @@
+---
+layout: default
+id: overview
+nav: true
+nav-order: 1
+title: Overview
+intro: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex earum repellat, nobis, commodi excepturi ratione iste dolore autem perferendis officiis iusto voluptatem nihil voluptatum! Officiis dignissimos dicta, cupiditate amet perspiciatis?
+
+
+banner:
+  title: Pandora Honeymoon Collection
+
+
+sections:
+  - id: one
+    title: Section one
+    nav-title: One
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum. Consequuntur recusandae nemo, magni excepturi laborum nihil aperiam est! Temporibus optio unde voluptates odio aliquam rem necessitatibus placeat, maxime, explicabo reiciendis, eos. Incidunt sed nisi, alias deleniti aut porro corporis quasi possimus nulla nostrum eveniet sunt eos dolore eligendi fugit, iste quisquam soluta rem veritatis perferendis fugiat esse.
+    offers:
+      - id: spectacular-oslo-bergen-break-with-optional-fjord-tour
+      - id: farris-bad
+      - id: first-hotel-marin
+
+
+  - id: two
+    title: Section Two
+    nav-title: Two
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum. Consequuntur recusandae nemo, magni excepturi laborum nihil aperiam est! Temporibus optio unde voluptates odio aliquam rem necessitatibus placeat, maxime, explicabo reiciendis, eos. Incidunt sed nisi, alias deleniti aut porro corporis quasi possimus nulla nostrum eveniet sunt eos dolore eligendi fugit, iste quisquam soluta rem veritatis perferendis fugiat esse.
+    offers:
+      - id: spectacular-oslo-bergen-break-with-optional-fjord-tour
+      - id: farris-bad
+      - id: first-hotel-marin
+
+
+  - id: three
+    title: Section Three
+    nav-title: Three
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum. Consequuntur recusandae nemo, magni excepturi laborum nihil aperiam est! Temporibus optio unde voluptates odio aliquam rem necessitatibus placeat, maxime, explicabo reiciendis, eos. Incidunt sed nisi, alias deleniti aut porro corporis quasi possimus nulla nostrum eveniet sunt eos dolore eligendi fugit, iste quisquam soluta rem veritatis perferendis fugiat esse.
+    offers:
+      - id: spectacular-oslo-bergen-break-with-optional-fjord-tour
+      - id: farris-bad
+      - id: first-hotel-marin
+
+---
+
+
+
+{% for section in page.sections %}
+  <div class="js-nav-section {% cycle 'bg--white', 'bg--light' %}">
+    <div class="wp" id="{{section.id}}"></div>
+    <div class="container vpad--xxxxl">
+
+      <div class="row row--valign-center row--gutters-lg row--6-6">
+        <div class="col">
+          <div class="title title--xxl">{{section.title}}</div>
+          <p>{{section.description}}</p>
+          <div class="space--sm"></div>
+          <a href="{{section.link}}" class="btn btn--partner">View offers</a>
+        </div>
+        <div class="col">
+          <div class="bg-img bg-img--4-3" style="background-image: url('{{site.img}}/img.jpg');"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+{% endfor %}
+
+{% include page/promo-campaign.html %}
