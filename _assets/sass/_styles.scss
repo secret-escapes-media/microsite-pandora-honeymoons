@@ -3,6 +3,7 @@
 
 .section  { position: relative; }
 .gallery {
+  // BUG: this is casuing issues for responsive, images go off canvas
   $gallery-offset: 60px;
   position: absolute;
   left: 50%;
