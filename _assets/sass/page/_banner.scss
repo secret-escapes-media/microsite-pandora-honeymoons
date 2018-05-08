@@ -35,16 +35,28 @@
     z-index: $z-content;
     background-color: $grey-dark;
     @include background-attributes;
-    // &:before {
-    //   // optional colour overlay on bg image
-    //   content: '';
-    //   position: absolute;
-    //   top: 0;
-    //   left: 0;
-    //   right: 0;
-    //   bottom: 0;
-    //   background-color: rgba($black,.15);
-    // }
+  }
+  &__logo {
+    position: relative;
+    width: 80%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-bottom: $s6;
+    &:before {
+      content: "";
+      display: block;
+      width: 100%;
+      padding-top: 50%;
+    }
+    &--pandora {
+      max-width: 280px;
+      background-image: url('../img/logo/partner.svg');
+      &:before {
+        padding-top: 20.34%;
+      }
+    }
   }
   &__nav {
     // optional container for navigation include

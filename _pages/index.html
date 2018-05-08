@@ -7,19 +7,25 @@ title: Overview
 
 
 banner:
-  title: Pandora Honeymoon Collection
+  content: >
+    <div class="banner__logo banner__logo--pandora"></div>
+    <hr class="hr--center hr--double">
+    <h1 class="banner-title">Honeymoon Collection</h1>
 
 
 page-nav:
   - id: mini-moon
-  - id: uk-breaks
-  - id: european-beach-breaks
+    title: Mini Moon
+  - id: european-getaway
+    title: European Getaway
   - id: longhaul-luxury
+    title: Longhaul Luxury
   - id: pandora
+    title: Pandora
 
 
 intro: >
-  <p class="text--lg">Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+  <p class="text--xl">Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
 
 
 sections:
@@ -27,36 +33,48 @@ sections:
     title: Mini Moon
     nav-title: Mini Moon
     description: >
-      <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates</p>
-      <p class="text--lg">Lipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. </p>
-    offer-id: spectacular-oslo-bergen-break-with-optional-fjord-tour
+      <p class="text--xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore. Maecenas faucibus mollis interdum. Curabitur blandit tempus porttitor. Aenean lacinia bibendum nulla sed consectetur. </p>
+    top-offer:
+      offer-id: spectacular
+      title: The Lake District
+      description: >
+        <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates</p>
+    offers:
+      - id: spectacular
+      - id: farris
+      - id: marin
 
 
-  - id: uk-breaks
-    title: UK Breaks
-    nav-title: UK Breaks
+  - id: european-getaway
+    title: European Getaway
+    nav-title: European Getaway
     description: >
-      <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates</p>
-      <p class="text--lg">Lipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. </p>
-    offer-id: farris-bad
-
-
-  - id: european-beach-breaks
-    title: European beach breaks
-    nav-title: European beach breaks
-    description: >
-      <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates</p>
-      <p class="text--lg">Lipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. </p>
-    offer-id: first-hotel-marin
+      <p class="text--xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore. Maecenas faucibus mollis interdum. Curabitur blandit tempus porttitor. Aenean lacinia bibendum nulla sed consectetur. </p>
+    top-offer:
+      offer-id: farris
+      title: Mykonos
+      description: >
+        <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates</p>
+    offers:
+      - id: spectacular
+      - id: farris
+      - id: marin
 
 
   - id: longhaul-luxury
     title: Longhaul Luxury
     nav-title: Longhaul Luxury
     description: >
-      <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates</p>
-      <p class="text--lg">Lipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. </p>
-    offer-id: farris-bad
+      <p class="text--xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore. Maecenas faucibus mollis interdum. Curabitur blandit tempus porttitor. Aenean lacinia bibendum nulla sed consectetur. </p>
+    top-offer:
+      offer-id: marin
+      title: Bali
+      description: >
+        <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates</p>
+    offers:
+      - id: spectacular
+      - id: farris
+      - id: marin
 
 
 
@@ -73,32 +91,79 @@ pandora:
 
 
 
-<div class="bg--white vpad--xxl">
+
+
+<div class="bg--white vpad--xxxl">
   <div class="container container--xxl text--center">
     {{page.intro}}
+    <div class="space--lg"></div>
   </div>
 </div>
 
 
 
-{% for section in page.sections %}
-  <div class="js-nav-section {% cycle 'bg--grey-lightest', 'bg--white' %}">
-    <div class="wp" id="{{section.id}}"></div>
-    <div class="container vpad--xxxxl">
 
-      <div class="row row--valign-center row--gutters-lg row--6-6">
+
+{% for section in page.sections %}
+  <div class="js-nav-section section {% cycle 'bg--grey-lightest', 'bg--white' %}">
+    <div class="wp" id="{{section.id}}"></div>
+
+    <div class="container gallery">
+      <div class="row row--constant-4-4-4 row--no-gutters">
         <div class="col">
-          <h3 class="title title--xxl">{{section.title}}</h3>
-          <hr class="hr--left">
-          {{section.description}}
-          <div class="space--sm"></div>
-          <a href="{{section.link}}" class="btn btn--orange">View offers</a>
+          <div class="bg-img bg-img--1-1" style="background-image: url({{site.img}}/content/{{section.id}}/01.jpg);"></div>
         </div>
         <div class="col">
-          {% assign offer = site.data.offers | where:"id",section.offer-id %}
-          {% for offer in offer %}
-            {% include offer/offer.html %}
+          <div class="bg-img bg-img--1-1" style="background-image: url({{site.img}}/content/{{section.id}}/02.jpg);"></div>
+        </div>
+        <div class="col">
+          <div class="bg-img bg-img--1-1" style="background-image: url({{site.img}}/content/{{section.id}}/03.jpg);"></div>
+        </div>
+      </div>
+    </div>
+    <div class="gallery__offset"></div>
+
+    <div class="container container--xxl">
+      <div class="space--xl"></div>
+      <h3 class="title title--xxxl title--display">{{section.title}}</h3>
+      <hr class="hr--left">
+      {{section.description}}
+    </div>
+
+    <div class="vpad--xxxl">
+
+      <div class="container">
+        <div class="top-pick">
+          <div class="row row--valign-center row--gutters-lg">
+            <div class="col col--7">
+              <span class="title title--xxxs text--upper text--bold text--wide-kern">Our top pick</span>
+              <div class="space--xs"></div>
+              <h3 class="title title--xl title--display text--bold">{{section.top-offer.title}}</h3>
+              {{section.top-offer.description}}
+            </div>
+            <div class="col col--5 top-pick__offer">
+              {% assign offer = site.data.offers | where:"id",section.top-offer.offer-id %}
+              {% for offer in offer %}
+                {% include offer/offer-sm.html %}
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row row--4-4-4">
+          {% for offerId in section.offers %}
+            {% assign offer = site.data.offers | where:"id",offerId.id %}
+            {% for offer in offer %}
+              <div class="col">
+                {% include offer/offer-sm.html %}
+              </div>
+            {% endfor %}
           {% endfor %}
+        </div>
+        <div class="text--center vpad--xxl">
+          <a href="{{section.link}}" class="btn btn--partner btn--lg">View more {{section.title}} offers</a>
         </div>
       </div>
 
@@ -108,40 +173,61 @@ pandora:
 
 
 
-<div class="js-nav-section bg--grey-lightest">
+
+<div class="vpad--xxxxl">
+  <div class="container text--center text--white text--wide-kern">
+    <span class="title title--lg title--display text--upper">Donec id elit non mi porta gravida at eget metus. Aenean eu leo quam.</span>
+  </div>
+  <div class="bg__fixed" style="background-image: url({{site.img}}/content/product-banner.jpg);"></div>
+</div>
+
+
+
+
+
+<div class="js-nav-section bg--white">
   <div class="wp" id="pandora"></div>
-  <div class="vpad--xxxxl">
+  <div class="vpad--xxxl">
 
-    <div class="container container--xxl text--center">
-      <div class="title title--xxl">{{page.pandora.title}}</div>
-      <hr class="hr--center">
-      {{page.pandora.description}}
-      <div class="space--sm"></div>
-    </div>
+    <div class="container text--center">
 
-    <div class="container">
+      <div class="container container--xxl">
+        <div class="title title--xxl title--display">{{page.pandora.title}}</div>
+        <div class="space--sm"></div>
+        <hr class="hr--center">
+        {{page.pandora.description}}
+      </div>
+
+      <div class="space--xl"></div>
+
       <div class="row">
       {% assign products = site.data.products %}
       {% for product in products %}
         <div class="col col--3">
-          <div class="boxpad--lg text--center">
-            <div class="bg-img bg-img--1-1 bg-img--circle" style="background-image: url({{site.img}}/products/{{product.id}}.jpg);"></div>
+          <div class="product boxpad--lg text--center">
+            <div class="product__image bg-img bg-img--1-1 bg-img--circle" style="background-image: url({{site.img}}/products/{{product.id}}.jpg);"></div>
             <div class="space--sm"></div>
-            <span class="title title--xxs">{{product.title}}</span>
+            <span class="title title--xxxs text--bold">{{product.title}}</span>
           </div>
         </div>
       {% endfor %}
       </div>
+
+      <div class="space--xl"></div>
+
+      <div class="container text--center">
+        <a href="{{page.pandora.link}}" class="btn btn--lg btn--partner">Explore the range</a>
+      </div>
+
     </div>
-
-    <div class="container text--center">
-      <a href="{{page.pandora.link}}" class="btn btn--partner">View offers</a>
-    </div>
-
-
   </div>
 </div>
 
 
 
+
+
 {% include page/promo-campaign.html %}
+
+
+

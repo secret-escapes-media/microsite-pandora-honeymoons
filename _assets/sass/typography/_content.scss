@@ -37,4 +37,10 @@ hr {
   &--left { width: 80px; margin-left: 0; }
   &--right { width: 80px; margin-right: 0; }
   &--center { width: 80px; margin-left: auto; margin-right: auto; }
+  &--double {
+    height: 5px;
+    border-top: 1px solid rgba($grey-darkest,0.2);
+    border-bottom: 1px solid rgba($grey-darkest,0.2);
+    .text--white & { border-color: rgba($white,0.5); }
+  }
 }

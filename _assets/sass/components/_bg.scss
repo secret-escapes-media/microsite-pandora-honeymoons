@@ -9,6 +9,8 @@
   &--grey-dark { background-color: $grey-dark; }
   &--grey-darker { background-color: $grey-darker; }
   &--grey-darkest { background-color: $grey-darkest; }
+  &--grey  { background-color: $grey-lighter; }
+
   &--img   { @include background-attributes; }
   &__fixed {
     position: fixed;
@@ -21,5 +23,4 @@
     background-color: $grey-darker;
   }
 
-  &--grey  { background-color: $grey-lighter; }
 }

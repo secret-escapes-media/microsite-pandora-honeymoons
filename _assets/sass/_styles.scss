@@ -1,1 +1,38 @@
 // general styles for the project that wouldn't be a reuseable component
+
+
+.section  { position: relative; }
+.gallery {
+  $gallery-offset: 60px;
+  position: absolute;
+  left: 50%;
+  margin-left: -600px;
+  top: -$gallery-offset;
+  &__offset {
+    position: relative;
+    display: block;
+    height: 400px - $gallery-offset;
+  }
+}
+
+
+.top-pick {
+  background-color: $white;
+  border: 1px solid rgba($grey-darkest,0.15);
+  box-shadow: 0 5px 25px rgba($grey-darkest,0.05);
+  padding: $s4;
+  &__offer {
+    margin-top: -$s9;
+    margin-bottom: -$s9;
+  }
+}
+
+
+.product {
+  &__image {
+    border: 1px solid $grey-lightest;
+    box-shadow: 0 6px 18px rgba($grey-darkest,0.05);
+  }
+}
+
+
