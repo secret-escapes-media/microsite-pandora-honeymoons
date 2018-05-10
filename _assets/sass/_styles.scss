@@ -31,9 +31,12 @@
 
 .product {
   &__image {
+    @include transition();
     border: 1px solid $grey-lightest;
     box-shadow: 0 6px 18px rgba($grey-darkest,0.05);
+    transform: scale(1);
   }
+  &:hover &__image { transform: scale(1.05); }
 }
 
 

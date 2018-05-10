@@ -21,7 +21,7 @@ page-nav:
   - id: longhaul-luxury
     title: Longhaul Luxury
   - id: pandora
-    title: Pandora
+    title: PANDORA
 
 
 intro: >
@@ -81,10 +81,10 @@ sections:
 
 pandora:
   id: pandora
-  title: Pandora gifting range
-  nav-title: Pandora
+  title: Gifts for brides and bridesmaids
+  nav-title: PANDORA
   description: >
-    <p class="text--xl">From lockets to charms, Pandora’s gifting range is perfect for adding that special touch to your romantic getaway...</p>
+    <p class="text--lg">Celebrate weddings and anniversaries with beautiful jewellery gifts from PANDORA. Pop the question to your bridesmaids or maid of honour with a striking piece of jewellery, or surprise the mother of the bride or the bride-to-be with something she will love.</p>
 
 
 
@@ -177,8 +177,7 @@ pandora:
 
 <div class="vpad--xxxxl">
   <div class="container text--center text--white text--wide-kern">
-    <span class="title title--lg title--display text--upper">Add Something Special to Your Break…
-</span>
+    <span class="title title--lg title--display text--upper">Sweeten your getaway with PANDORA...</span>
   </div>
   <div class="bg__fixed" style="background-image: url({{site.img}}/content/product-banner.jpg);"></div>
 </div>
@@ -193,11 +192,12 @@ pandora:
 
     <div class="container text--center">
 
-      <div class="container container--xxl">
+      <div class="container container--xxxl">
         <div class="title title--xxl title--display">{{page.pandora.title}}</div>
-        <div class="space--sm"></div>
         <hr class="hr--center">
-        {{page.pandora.description}}
+        <div class="container container--xxl">
+          {{page.pandora.description}}
+        </div>
       </div>
 
       <div class="space--xl"></div>
@@ -207,9 +207,9 @@ pandora:
       {% for product in products %}
         <div class="col col--3">
           <div class="product boxpad--lg text--center">
-            <div class="product__image bg-img bg-img--1-1 bg-img--circle" style="background-image: url({{site.img}}/products/{{product.id}}.jpg);"></div>
+            <a href="{{product.link}}" class="product__image bg-img bg-img--1-1 bg-img--circle" style="background-image: url({{site.img}}/products/{{product.id}}.jpg);"></a>
             <div class="space--sm"></div>
-            <span class="title title--xxxs text--bold">{{product.title}}</span>
+            <a href="{{product.link}}" class="title title--xxxs text--bold">{{product.title}}</a>
           </div>
         </div>
       {% endfor %}
@@ -224,12 +224,5 @@ pandora:
     </div>
   </div>
 </div>
-
-
-
-
-
-<!-- {% include page/promo-campaign.html %} -->
-
 
 
