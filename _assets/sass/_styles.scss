@@ -3,16 +3,23 @@
 
 .section  { position: relative; }
 .gallery {
-  // BUG: this is casuing issues for responsive, images go off canvas
-  $gallery-offset: 60px;
-  position: absolute;
-  left: 50%;
-  margin-left: -600px;
-  top: -$gallery-offset;
-  &__offset {
-    position: relative;
-    display: block;
-    height: 400px - $gallery-offset;
+  padding-top: $s10;
+  padding-bottom: 0;
+  @include bp($lg) {
+    padding-bottom: $s2;
+  }
+  @include bp($xxxl) {
+    $gallery-offset: 60px;
+    padding: 0;
+    position: absolute;
+    left: 50%;
+    margin-left: -600px;
+    top: -$gallery-offset;
+    &__offset {
+      position: relative;
+      display: block;
+      height: 400px - $gallery-offset;
+    }
   }
 }
 
@@ -23,8 +30,10 @@
   box-shadow: 0 5px 25px rgba($grey-darkest,0.05);
   padding: $s4;
   &__offer {
-    margin-top: -$s9;
-    margin-bottom: -$s9;
+    @include bp($xl) {
+      margin-top: -$s9;
+      margin-bottom: -$s9;
+    }
   }
 }
 
