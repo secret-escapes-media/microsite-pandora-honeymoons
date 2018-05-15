@@ -51,16 +51,16 @@
 
 ## EUROPEAN GETAWAY
 
-- title:
-  id:
+- title: Santorini Main Square
+  id: santorini-main-square
   category: european-getaway
-  location:
-  description:
-  price:
-  price-description: per room per night
-  saved:
+  location: Santorini, Greece
+  description: A chic stay in the centre of Santorini’s scenic capital
+  price: 105
+  price-description: per suite per night
+  saved: 40
   expires: 2018/05/22
-  link:
+  link: https://www.secretescapes.com/main-square-fira-hotel-santorini-greece/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
 
 - title: Château de Mirambeau
   id: chateau-de-mirambeau
