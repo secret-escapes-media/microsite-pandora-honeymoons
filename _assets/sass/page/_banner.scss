@@ -51,8 +51,10 @@
       padding-top: 50%;
     }
     &--pandora {
-      max-width: 280px;
+      max-width: 160px;
       background-image: url('../img/logo/partner.svg');
+      @include bp($lg){ max-width: 220px; }
+      @include bp($xxl){ max-width: 280px; }
       &:before {
         padding-top: 20.34%;
       }
