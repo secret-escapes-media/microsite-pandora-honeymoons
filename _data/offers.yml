@@ -33,7 +33,7 @@
   price: 95
   price-description: per room per night
   saved: 40
-  expires: 2018/05/20
+  expires: 2018/05/23
   link: https://www.secretescapes.com/burley-manor-new-forest-hampshire/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
 
 - title: Tolcarne Beach Village
@@ -44,23 +44,23 @@
   price: 125
   price-description: per room per night
   saved: 57
-  expires: 2018/05/24
+  expires: 2018/05/23
   link: https://www.secretescapes.com/tolcarne-beach-apartments-newquay-cornwall/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
 
 
 
 ## EUROPEAN GETAWAY
 
-- title: Santorini Main Square
-  id: santorini-main-square
+- title: 5* boutique Mykonos break with sea views
+  id: boutique-mykonos-break-with-sea-views
   category: european-getaway
-  location: Santorini, Greece
-  description: A chic stay in the centre of Santorini’s scenic capital
-  price: 105
-  price-description: per suite per night
-  saved: 40
-  expires: 2018/05/22
-  link: https://www.secretescapes.com/main-square-fira-hotel-santorini-greece/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
+  location: La Residence, Greece
+  description: A five-star stay in beautiful Mykonos with Aegean-facing suites
+  price: 649
+  price-description: per person for 5 nights
+  saved: 41
+  expires: 2018/05/29
+  link: https://www.secretescapes.com/5-star-boutique-mykonos-break-with-sea-views-kalafatis-greece/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
 
 - title: Château de Mirambeau
   id: chateau-de-mirambeau
@@ -70,7 +70,7 @@
   price: 101
   price-description: per room per night
   saved: 28
-  expires: 2018/05/22
+  expires: 2018/05/29
   link: https://www.secretescapes.com/chateau-de-mirambeau-mirambeau-near-cognac-france/sale?gce_fll=0&utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
 
 - title: 5* sublime Crete holiday with your own pool
@@ -81,7 +81,7 @@
   price: 899
   price-description: per person for 7 nights
   saved: 56
-  expires: 2018/05/22
+  expires: 2018/05/30
   link: https://www.secretescapes.com/5-star-sublime-crete-holiday-with-your-own-pool-daios-cove-luxury-resort-and-villas-greece/sale?gce_fas=0&utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
 
 - title: Il Boscareto Resort & Spa
@@ -92,7 +92,7 @@
   price: 161
   price-description: per room per night
   saved: 43
-  expires: 2018/05/22
+  expires: 2018/05/29
   link: https://www.secretescapes.com/il-boscareto-resort-and-spa-piedmont-italy79/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
 
 
@@ -118,7 +118,7 @@
   price: 1599
   price-description: per person for 9 nights
   saved: 30
-  expires: 2018/05/22
+  expires: 2018/05/29
   link: https://www.secretescapes.com/epic-kenya-holiday-with-safari-and-all-inclusive-beach-stays-mombasa-tsavo-and-amboseli-national-parks-and-nairobi/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
 
 - title: Fairmont Maldives - Sirru Fen Fushi
@@ -129,7 +129,7 @@
   price: 496
   price-description: per villa per night
   saved: 83
-  expires: 2018/05/22
+  expires: 2018/05/30
   link: https://www.secretescapes.com/sirru-fen-fushi-shaviyani-atoll-maldives/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
 
 - title: Showstopping Toronto & New York holiday with optional tours
@@ -140,6 +140,6 @@
   price: 1079
   price-description: per person for 6 nights
   saved: 36
-  expires: 2018/05/22
+  expires: 2018/05/30
   link: https://www.secretescapes.com/showstopping-toronto-and-new-york-holiday-with-optional-tours-doubletree-by-hilton-toronto-downtown-canada-and-tryp-by-wyndham-times-square-south-usa/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
 
