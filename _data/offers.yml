@@ -14,16 +14,16 @@
   expires: 2018/05/31
   link: https://www.secretescapes.com/lodore-falls-hotel-keswick-lake-district/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
 
-- title: Eckington Manor
-  id: eckington-manor
+- title: Elegant Cotswolds hotel with an acclaimed restaurant
+  id: elegant-cotswolds-hotel-with-an-acclaimed-restaurant
   category: mini-moon
-  location: Eckington, Cotswolds
-  description: An award-winning, five-star Cotswolds manor with cookery school
-  price: 99
+  location: Lords of the Manor, Upper Slaughter
+  description: Gourmet gastronomy and parkland views in the Cotswolds
+  price: 239
   price-description: per room per night
-  saved: 45
-  expires: 2018/05/23
-  link: https://www.secretescapes.com/eckington-manor-eckington-cotswolds/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
+  saved: 44
+  expires: 2018/05/31
+  link: https://www.secretescapes.com/lords-of-the-manor-upper-slaughter-cotswolds/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
 
 - title: Burley Manor
   id: burley-manor
