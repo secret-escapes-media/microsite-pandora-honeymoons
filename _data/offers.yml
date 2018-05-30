@@ -51,27 +51,27 @@
 
 ## EUROPEAN GETAWAY
 
-- title: 5* boutique Mykonos break with sea views
-  id: boutique-mykonos-break-with-sea-views
+- title: Dreamy boutique Mykonos holiday
+  id: dreamy-boutique-mykonos-holiday
   category: european-getaway
-  location: La Residence, Greece
-  description: A five-star stay in beautiful Mykonos with Aegean-facing suites
-  price: 649
-  price-description: per person for 5 nights
-  saved: 41
-  expires: 2018/05/29
-  link: https://www.secretescapes.com/5-star-boutique-mykonos-break-with-sea-views-kalafatis-greece/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
+  location: Pietra e Mare, Greek Islands
+  description: Gorgeous Mykonos digs with pool and private beach
+  price: 369
+  price-description: per person for 4 nights
+  saved: 23
+  expires: 2018/06/05
+  link: https://www.secretescapes.com/heavenly-mykonos-holiday-pietra-e-mare/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
 
-- title: Château de Mirambeau
-  id: chateau-de-mirambeau
+- title: Bougainvillea Relais
+  id: bougainvillea-relais
   category: european-getaway
-  location: Mirambeau, near Cognac, France
-  description: A five-star Relais & Châteaux hotel with Michelin-star foo
-  price: 101
-  price-description: per room per night
-  saved: 28
-  expires: 2018/05/29
-  link: https://www.secretescapes.com/chateau-de-mirambeau-mirambeau-near-cognac-france/sale?gce_fll=0&utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
+  location: Sorrento, Italy
+  description: Chic and modern interiors at an idyllic Sorrento guest house
+  price: 36
+  price-description: per person per night
+  saved: 33
+  expires: 2018/06/05
+  link: https://www.secretescapes.com/bougainvillea-relais-sorrento-italy54/sale?gce_fll=0&utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
 
 - title: 5* sublime Crete holiday with your own pool
   id: 5-sublime-crete-holiday-with-your-own-pool
@@ -81,19 +81,19 @@
   price: 899
   price-description: per person for 7 nights
   saved: 56
-  expires: 2018/05/30
+  expires: 2018/06/06
   link: https://www.secretescapes.com/5-star-sublime-crete-holiday-with-your-own-pool-daios-cove-luxury-resort-and-villas-greece/sale?gce_fas=0&utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
 
-- title: Il Boscareto Resort & Spa
-  id: il-boscareto-resort-spa
+- title: Hotel Beau Rivage
+  id: hotel-beau-rivage
   category: european-getaway
-  location: Piedmont, Italy
-  description: A five-star spa hotel with fine dining in the Langhe region
+  location: Nice, France
+  description: A historic Nice hotel near the Promenade des Anglais
   price: 161
   price-description: per room per night
-  saved: 43
-  expires: 2018/05/29
-  link: https://www.secretescapes.com/il-boscareto-resort-and-spa-piedmont-italy79/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
+  saved: 54
+  expires: 2018/06/05
+  link: https://www.secretescapes.com/hotel-beau-rivage-nice-france/sale?gce_fll=0&utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
 
 
 
@@ -118,28 +118,28 @@
   price: 1599
   price-description: per person for 9 nights
   saved: 30
-  expires: 2018/05/29
+  expires: 2018/06/05
   link: https://www.secretescapes.com/epic-kenya-holiday-with-safari-and-all-inclusive-beach-stays-mombasa-tsavo-and-amboseli-national-parks-and-nairobi/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
 
-- title: Fairmont Maldives - Sirru Fen Fushi
-  id: fairmont-maldives-sirru-fen-fushi
+- title: Conrad Maldives Rangali Island
+  id: conrad-maldives-rangali-island
   category: longhaul-luxury
-  location: Shaviyani Atoll, Maldives
-  description: A luxury all-villa resort lapped by an unbelievably clear lagoon - perks included
-  price: 496
-  price-description: per villa per night
-  saved: 83
+  location: South Ari Atoll, Maldives
+  description: A jaw-dropping villa at a leading five-star resort with a string of awards - perks included
+  price: 259
+  price-description: per person per night
+  saved: 49
   expires: 2018/05/30
-  link: https://www.secretescapes.com/sirru-fen-fushi-shaviyani-atoll-maldives/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
+  link: https://www.secretescapes.com/conrad-maldives-rangali-island-south-ari-atoll-maldives/sale?gce_fll=0&utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
 
-- title: Showstopping Toronto & New York holiday with optional tours
-  id: showstopping-toronto-new-york-holiday-with-optional-tours
+- title: Sublime Thailand getaway with city & island stays
+  id: sublime-thailand-getaway-with-city-island-stays
   category: longhaul-luxury
-  location: Doubletree by Hilton Toronto Downtown, Canada & TRYP by Wyndham Times Square South, USA
-  description: Transatlantic thrills in Toronto and New York with optional tours
-  price: 1079
-  price-description: per person for 6 nights
-  saved: 36
-  expires: 2018/05/30
-  link: https://www.secretescapes.com/showstopping-toronto-and-new-york-holiday-with-optional-tours-doubletree-by-hilton-toronto-downtown-canada-and-tryp-by-wyndham-times-square-south-usa/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
+  location: Bangkok, Koh Yao Noi & Phi Phi Islands
+  description: Bangkok buzz and two exquisite Thai island retreats
+  price: 1299
+  price-description: per person for 13 nights
+  saved: 32
+  expires: 2018/06/11
+  link: https://www.secretescapes.com/sublime-thailand-getaway-with-city-and-island-stays-bangkok-koh-yao-noi-and-phi-phi-islands/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
 
