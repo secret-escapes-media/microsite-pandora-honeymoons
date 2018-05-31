@@ -3,27 +3,27 @@
 
 ## MINI MOON
 
-- title: Lodore Falls Hotel
-  id: lodore-falls-hotel
+- title: Charingworth Manor
+  id: charingworth-manor
   category: mini-moon
-  location: Keswick, Lake District
-  description: A newly refurbished Lake District stay with superb views
+  location: Chipping Campden, Cotswolds
+  description: A 700-year-old Cotswolds manor house stay with optional private hot tub
   price: 189
   price-description: per room per night
-  saved: 52
-  expires: 2018/05/31
-  link: https://www.secretescapes.com/lodore-falls-hotel-keswick-lake-district/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
+  saved: 33
+  expires: 2018/06/02
+  link: https://www.secretescapes.com/charingworth-manor-chipping-campden-cotswolds/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
 
-- title: Elegant Cotswolds hotel with an acclaimed restaurant
-  id: elegant-cotswolds-hotel-with-an-acclaimed-restaurant
+- title: Hillthwaite House Hotel
+  id: hillthwaite-house-hotel
   category: mini-moon
-  location: Lords of the Manor, Upper Slaughter
-  description: Gourmet gastronomy and parkland views in the Cotswolds
-  price: 239
-  price-description: per room per night
-  saved: 44
-  expires: 2018/05/31
-  link: https://www.secretescapes.com/lords-of-the-manor-upper-slaughter-cotswolds/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
+  location: Windermere, Lake District
+  description: A charming Lake District hotel overlooking Windermere
+  price: 84
+  price-description: per person per night
+  saved: 41
+  expires: 2018/06/06
+  link: https://www.secretescapes.com/hillthwaite-house-hotel-windermere-lake-district/sale?gce_fll=0&utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
 
 - title: Burley Manor
   id: burley-manor
@@ -33,7 +33,7 @@
   price: 95
   price-description: per room per night
   saved: 40
-  expires: 2018/05/31
+  expires: 2018/06/01
   link: https://www.secretescapes.com/burley-manor-new-forest-hampshire/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
 
 - title: Tolcarne Beach Village
@@ -44,7 +44,7 @@
   price: 125
   price-description: per room per night
   saved: 57
-  expires: 2018/05/31
+  expires: 2018/06/01
   link: https://www.secretescapes.com/tolcarne-beach-apartments-newquay-cornwall/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
 
 
@@ -129,7 +129,7 @@
   price: 259
   price-description: per person per night
   saved: 49
-  expires: 2018/05/30
+  expires: 2018/06/04
   link: https://www.secretescapes.com/conrad-maldives-rangali-island-south-ari-atoll-maldives/sale?gce_fll=0&utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
 
 - title: Sublime Thailand getaway with city & island stays
