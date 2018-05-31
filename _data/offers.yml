@@ -3,16 +3,16 @@
 
 ## MINI MOON
 
-- title: Charingworth Manor
-  id: charingworth-manor
+- title: Stonehouse Court Hotel
+  id: stonehouse-court-hotel
   category: mini-moon
-  location: Chipping Campden, Cotswolds
-  description: A 700-year-old Cotswolds manor house stay with optional private hot tub
-  price: 189
+  location: Stonehouse, Gloucestershire
+  description: A charming 17th-century manor house hotel in Gloucestershire
+  price: 99
   price-description: per room per night
-  saved: 33
+  saved: 40
   expires: 2018/06/02
-  link: https://www.secretescapes.com/charingworth-manor-chipping-campden-cotswolds/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
+  link: https://www.secretescapes.com/stonehouse-court-hotel-stonehouse-gloucestershire/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
 
 - title: Hillthwaite House Hotel
   id: hillthwaite-house-hotel
