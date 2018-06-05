@@ -25,27 +25,27 @@
   expires: 2018/06/06
   link: https://www.secretescapes.com/hillthwaite-house-hotel-windermere-lake-district/sale?gce_fll=0&utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
 
-- title: Burley Manor
-  id: burley-manor
+- title: Taplow House Hotel
+  id: taplow-house-hotel
   category: mini-moon
-  location: New Forest, Hampshire
-  description: A plush and historic, grown-ups-only manor house in the New Forest
-  price: 95
+  location: Taplow, Buckinghamshire
+  description: Rural charm at a boutique Georgian hotel near Windsor
+  price: 145
   price-description: per room per night
-  saved: 40
-  expires: 2018/06/01
-  link: https://www.secretescapes.com/burley-manor-new-forest-hampshire/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
+  saved: 52
+  expires: 2018/06/05
+  link: https://www.secretescapes.com/taplow-house-hotel-taplow-buckinghamshire/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_June2018
 
-- title: Tolcarne Beach Village
-  id: tolcarne-beach-village
+- title: Polurrian Bay Hotel
+  id: polurrian-bay-hotel
   category: mini-moon
-  location: Newquay, Cornwall
-  description: A boutique stay on Tolcarne Beach in Newquay Bay
+  location: Mullion, Cornwall
+  description: A colourful Mullion retreat with Cornish coast views
   price: 125
   price-description: per room per night
-  saved: 57
-  expires: 2018/06/01
-  link: https://www.secretescapes.com/tolcarne-beach-apartments-newquay-cornwall/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
+  saved: 49
+  expires: 2018/06/05
+  link: https://www.secretescapes.com/polurrian-bay-hotel-mullion-cornwall/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_June2018
 
 
 
@@ -132,14 +132,14 @@
   expires: 2018/06/04
   link: https://www.secretescapes.com/conrad-maldives-rangali-island-south-ari-atoll-maldives/sale?gce_fll=0&utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
 
-- title: Sublime Thailand getaway with city & island stays
-  id: sublime-thailand-getaway-with-city-island-stays
+- title: Kore Tulum Retreat & Spa Resort
+  id: kore-tulum-retreat-spa-resort
   category: longhaul-luxury
-  location: Bangkok, Koh Yao Noi & Phi Phi Islands
-  description: Bangkok buzz and two exquisite Thai island retreats
-  price: 1299
-  price-description: per person for 13 nights
-  saved: 32
-  expires: 2018/06/11
-  link: https://www.secretescapes.com/sublime-thailand-getaway-with-city-and-island-stays-bangkok-koh-yao-noi-and-phi-phi-islands/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_May2018
+  location: Tulum, Mexico
+  description: A luxe, all-inclusive retreat on Mexico's Riviera Maya
+  price: 76
+  price-description: per person per night
+  saved: 45
+  expires: 2018/06/05
+  link: https://www.secretescapes.com/kore-tulum-retreat-and-spa-resort-tulum-mexico/sale?gce_fll=0&utm_source=microsite&utm_medium=SE_media&utm_campaign=Pandora_June2018
 
